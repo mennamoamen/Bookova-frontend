@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+label {
+  width: 100%;
+}
+.row p {
+  padding-left: 0;
+}
+
+.form_control {
+  width: 70%;
+  margin-left: 0.5rem;
+}
+
+.form_control:focus {
+  box-shadow: none;
+  border-color: #ced4da;
+}
+.imgForm {
+  width: 70%;
+}
+img {
+  /* height: 95vh; */
+  margin-bottom: 25%;
+}

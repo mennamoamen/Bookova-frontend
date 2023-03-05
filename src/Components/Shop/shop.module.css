@@ -1,0 +1,82 @@
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+
+.book-card{
+  position: relative;
+  width: 18rem;
+  height: auto;
+  transition: width 1s, height 4s;
+}
+.overlay{
+  position: absolute; 
+ 
+   
+  width: 100%; 
+  height: 10%; 
+  top: 90%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+.overlayImg{
+  width: 3rem;
+  display: none;
+  margin-left:1.5rem ;
+  margin-top: 5px;
+  transition: width 1s, height 4s;
+}
+.book-card:hover .overlay:hover{
+  width: 3.5rem;
+}
+.book-card:hover .overlay{
+  height: 100%;
+  width: 100%;
+ 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+.book-card:hover .overlayImg{
+display: block;
+}
+.book-card:hover{
+width: 19rem;
+}
+  .chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+  }
+  
+  .chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  .checked {
+    color: orange;
+  }

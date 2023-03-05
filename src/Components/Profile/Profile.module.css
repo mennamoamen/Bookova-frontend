@@ -1,0 +1,62 @@
+.container {
+  background-color: #69696959;
+}
+.proImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.hr {
+  border: 1px dashed #000;
+  margin: 0;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+.aside {
+  margin: auto 0;
+}
+.card {
+  /* width: 50%; */
+  padding: 1.5rem 1rem;
+  text-align: left;
+}
+.info {
+  text-align: start;
+}
+.info p {
+  margin-bottom: 0;
+}
+.info p:nth-child(even) {
+  color: grey;
+}
+.info p:nth-child(odd) {
+  margin-bottom: 5px;
+}
+
+.navLink {
+  border: none;
+  padding: 1rem;
+}
+.navLink:hover {
+  background-color: #0000004c;
+  color: white;
+  border-bottom-width: 15px;
+}
+.table {
+  width: 100%;
+  padding: 1rem 1rem;
+  color: white;
+  background-color: #837e7e;
+}
+.theadTr {
+  border-bottom: 15px white solid;
+}
+.theadTh {
+  padding: 1rem 1rem;
+  border-color: #f8f9fa;
+}

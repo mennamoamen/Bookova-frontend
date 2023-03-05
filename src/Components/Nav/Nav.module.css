@@ -1,0 +1,34 @@
+.nav {
+  background-color: var(--baby-blue);
+}
+
+:root {
+  /*
+   * when using linear  linear-gradient use background-image NOT background-color
+   * example:
+   * background-image: var(--hero-backgroundcolor);
+  */
+
+  --hero-backgroundcolor: linear-gradient(
+    90deg,
+    rgba(149, 150, 175, 1) 0%,
+    rgba(69, 123, 157, 1) 50%,
+    rgba(1, 53, 85, 1) 100%
+  );
+  --linear-blue: linear-gradient(
+    90deg,
+    rgba(149, 150, 175, 1) 0%,
+    rgba(69, 123, 157, 1) 70%,
+    rgba(1, 53, 85, 1) 30%
+  );
+  --navy-blue: #195d86;
+  --baby-blue: #c4d9e8;
+  --white: #ffffff;
+  --warn: #ff9c00;
+  --brown: #865a0b;
+  --light-blue: #a8dadc;
+  --dark-blue: #457b9d;
+  --nav-backgroundcolor: rgba(85, 128, 161, 0.3);
+  --slider-backgroundcolor: rgba(177, 212, 234, 0.3);
+}
+/*  */

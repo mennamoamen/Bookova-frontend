@@ -1,0 +1,58 @@
+.container {
+  width: 60%;
+}
+
+.theadTr,
+.tbodyTd2,
+.tbodyTd4 {
+  text-align: center;
+}
+.th {
+  text-align: center;
+}
+.tbodyTd1 {
+  width: 45%;
+}
+.cartDivImg {
+  width: 30%;
+  padding: 2%;
+}
+.cartImg {
+  width: 80%;
+}
+.cartContent {
+  width: 70%;
+}
+.h5,
+.cartContentP {
+  padding: 0;
+  margin: 0;
+}
+.tbodyTd2,
+.tbodyTd3,
+.tbodyTd4,
+.tbodyTd5 {
+  vertical-align: middle;
+}
+
+.tbodyTd2 {
+  width: 20%;
+}
+.tbodyTd3,
+.tbodyTd5 {
+  width: 5%;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+}
+.qnt,
+.button {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.qnt {
+  padding-top: 15px;
+}
